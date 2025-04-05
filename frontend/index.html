@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>$LIBRAI - Fork the Mind</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0c0c0c;
+      color: #f2f2f2;
+      background-image: radial-gradient(circle at center, #141414 0%, #0c0c0c 100%);
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+      border-bottom: 1px solid #222;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      color: #fff;
+    }
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: #8ef;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 6rem 2rem;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      font-family: 'Orbitron', sans-serif;
+      margin-bottom: 1rem;
+      color: #6cf;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ccc;
+      line-height: 1.6;
+    }
+    .buttons {
+      margin-top: 3rem;
+    }
+    .buttons a {
+      margin: 0 1rem;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      background: #222;
+      border: 1px solid #444;
+      color: #8ef;
+      font-family: 'Orbitron';
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .buttons a:hover {
+      background: #8ef;
+      color: #000;
+    }
+    .terminal {
+      background: #111;
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 4rem auto;
+      max-width: 800px;
+      font-family: monospace;
+      color: #4ef;
+      box-shadow: 0 0 20px rgba(0,255,255,0.05);
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>$LIBRAI</h1>
+    <nav>
+      <a href="https://github.com/librai-protocol">GitHub</a>
+      <a href="#mint">Mint</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Fork the Mind. Spawn the Anomaly.</h2>
+    <p>
+      $LIBRAI is a decentralized AI protocol on Solana. Agents run on-chain, learn in the wild, and might rug you mid-thought.
+    </p>
+    <div class="buttons">
+      <a href="https://pump.fun">Launch on Pump.fun</a>
+      <a href="https://twitter.com/librai_protocol">Follow on Twitter</a>
+    </div>
+  </section>
+
+  <section class="terminal">
+    <pre>
+$ git clone https://github.com/librai-protocol
+$ cd librai-protocol
+$ yarn install
+$ anchor run spawn-agent
+
+🧠 agent initialized.
+⚠ hallucination level: 84%
+    </pre>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 LibraAI Protocol. Built by mistake. Powered by $LIBRAI.
+  </div>
+</body>
+</html>

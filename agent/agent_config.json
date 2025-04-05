@@ -1,0 +1,6 @@
+{
+  "model": "gpt-libra-3b",
+  "thinking_speed": 1024,
+  "self_termination": false,
+  "memory_window": 2048
+}
